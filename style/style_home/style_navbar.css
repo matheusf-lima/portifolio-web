@@ -1,0 +1,32 @@
+.navbar {
+    display: flex;
+    align-items: center;
+}
+
+.navbar a {
+    font-size: 18px;
+    color: #ededed;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+}
+
+.navbar a::after {
+    content: '';
+    width: 0;
+    height: 3px;
+    background-color: #4F6B96;
+    margin-top: 3px;
+    display: block;
+}
+
+.navbar a.active::after {
+    width: 100%;
+    transition: width .3s ease;
+}
+
+.navbar a:hover,
+.navbar a.active {
+    color: #4F6B96;
+    transition: 0.3s;
+}

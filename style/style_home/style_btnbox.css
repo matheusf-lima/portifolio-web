@@ -1,0 +1,88 @@
+.btn-box a {
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 100%;
+    background: #4F6B96;
+    border: 2px solid #4F6B96;
+    border-radius: 8px;
+    font-size: 19px;
+    color: #020015;
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: 1px;
+    z-index: 1;
+    overflow: hidden;
+    transition: 0.5s;
+}
+
+.btnlogin-popup {
+    width: 120px;
+    height: 40px;
+    background: transparent;
+    border: 2px solid #4F6B96;
+    border-radius: 6px;
+    font-size: 18px;
+    color: #ededed;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+    cursor: pointer;
+    transition: .5s;
+    z-index: 1;
+    position: relative;
+}
+
+.btnlogin-popup::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: #4F6B96;
+    transition: 0.5s;
+    z-index: -1;
+}
+
+.btnlogin-popup:hover::before{
+    background: #4F6B96;
+    color: #020015;
+    width: 100%;
+}
+
+.btn-box a:hover {
+    background: transparent;
+    color: #4F6B96;
+}
+
+.btn-box a:nth-child(2)::before {
+    background: #4F6B96;
+}
+
+.btn-box a:nth-child(2):hover {
+    color: #10151f;
+}
+
+.btn-box a:nth-child(2) {
+    background: transparent;
+    color: #4F6B96;
+}
+
+.btn-box a::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: transparent;
+    z-index: -1;
+    transition: 0.5s;
+}
+
+.btn-box a:hover::before {
+    width: 100%;
+}

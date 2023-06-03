@@ -1,0 +1,21 @@
+.homeanimation img {
+    position: absolute;
+    top: 0;
+    right: 30px;
+    width: 700px;
+    height: 100%;
+    transform: scale(1);
+    transition: transform .5s ease;
+    opacity: 1;
+    transform: cubic-bezier(0.785, 0.135, 0.15, 0.86);
+}
+
+.homeanimation img:hover {
+    transition: opacity .8s ease;
+    opacity: .7;
+}
+
+.homeanimation.active img {
+    transform: scale(0);
+    transition: transform .5s ease;
+}
