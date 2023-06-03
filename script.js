@@ -15,7 +15,8 @@ navbar.forEach(element => {
         this.classList.add('active');
         wrapper.classList.remove('active-popup', 'active');
         homeContent.classList.remove('active');
-        redes.classList.remove('active')
+        redes.classList.remove('active');
+        homeimg.classList.remove('active');
     })
 });
 
