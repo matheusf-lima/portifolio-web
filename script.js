@@ -27,6 +27,7 @@ loginLink.addEventListener('click', ()=> {
     wrapper.classList.remove('active')
 });
 btnPopup.addEventListener('click', ()=> {
+    location.href = "#home";
     wrapper.classList.add('active-popup');
     homeContent.classList.add('active');
     redes.classList.add('active');

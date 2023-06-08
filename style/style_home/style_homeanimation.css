@@ -1,3 +1,5 @@
+
+
 .homeanimation img {
     position: absolute;
     top: 0;
@@ -5,9 +7,9 @@
     width: 700px;
     height: 100%;
     transform: scale(1);
-    transition: transform .5s ease;
+    transition: transform 0.5s ease;
     opacity: 1;
-    transform: cubic-bezier(0.785, 0.135, 0.15, 0.86);
+    transition: opacity transform .8s ease;
 }
 
 .homeanimation img:hover {

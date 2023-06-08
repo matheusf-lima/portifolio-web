@@ -24,6 +24,10 @@
     width: 100%;
     transition: width .3s ease;
 }
+.navbar a:hover {
+    font-size: 20px;
+    transition: 0.5s;
+}
 
 .navbar a:hover,
 .navbar a.active {
