@@ -7,11 +7,16 @@
     font-family: 'Poppins', sans-serif;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     color: #ededed;
     background: url('../../img/bg.jpg') fixed;
-    background-size: cover;
+    background-size: 100vw;
     background-position: center;
+    overflow: overlay;
 }
 
 .header {
