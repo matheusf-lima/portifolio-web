@@ -7,16 +7,30 @@
     font-family: 'Poppins', sans-serif;
 }
 
+:root {
+    --font-dark-mode: #ededed;
+    --font-secundary-dark-mode: #4F6B96;
+    --bg-dark-mode: url('../../img/bg.jpg');
+}
+
+.dark-mode {
+    --font-dark-mode: #303030;
+    --font-secundary-dark-mode: #87a5d1;
+    --bg-dark-mode: url('../../img/light_bg.avif');
+    transition: 0.5 ease-in ;
+}
+
 html {
     scroll-behavior: smooth;
 }
 
 body {
-    color: #ededed;
-    background: url('../../img/bg.jpg') fixed;
+    color: var(--font-dark-mode);
+    background: var(--bg-dark-mode) fixed;
     background-size: 100vw;
     background-position: center;
     overflow: overlay;
+    transition: 0.5s;
 }
 
 .header {
@@ -41,7 +55,7 @@ body {
 .logo {
     position: relative;
     font-size: 25px;
-    color: #ededed;
+    color: var(--font-dark-mode);
     text-decoration: none;
     font-weight: 600;
     display: inline-block;

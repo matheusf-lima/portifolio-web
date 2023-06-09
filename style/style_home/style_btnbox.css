@@ -5,8 +5,8 @@
     align-items: center;
     width: 150px;
     height: 100%;
-    background: #4F6B96;
-    border: 2px solid #4F6B96;
+    background: var(--font-secundary-dark-mode);
+    border: 2px solid var(--font-secundary-dark-mode);
     border-radius: 8px;
     font-size: 20px;
     color: #020015;
@@ -22,10 +22,10 @@
     width: 120px;
     height: 40px;
     background: transparent;
-    border: 2px solid #4F6B96;
+    border: 2px solid var(--font-secundary-dark-mode);
     border-radius: 6px;
     font-size: 18px;
-    color: #ededed;
+    color: var(--font-dark-mode);
     text-decoration: none;
     font-weight: 500;
     margin-left: 35px;
@@ -42,24 +42,24 @@
     left: 0;
     width: 0;
     height: 100%;
-    background: #4F6B96;
+    background: var(--font-secundary-dark-mode);
     transition: 0.5s;
     z-index: -1;
 }
 
 .btnlogin-popup:hover::before{
-    background: #4F6B96;
+    background: var(--font-secundary-dark-mode);
     color: #020015;
     width: 100%;
 }
 
 .btn-box a:hover {
     background: transparent;
-    color: #4F6B96;
+    color: var(--font-secundary-dark-mode);
 }
 
 .btn-box a:nth-child(2)::before {
-    background: #4F6B96;
+    background: var(--font-secundary-dark-mode);
 }
 
 .btn-box a:nth-child(2):hover {
@@ -68,7 +68,7 @@
 
 .btn-box a:nth-child(2) {
     background: transparent;
-    color: #4F6B96;
+    color: var(--font-secundary-dark-mode);
 }
 
 .btn-box a::before {
@@ -78,7 +78,7 @@
     left: 0;
     width: 0;
     height: 100%;
-    background: #4F6B96;
+    background: var(--font-secundary-dark-mode);
     z-index: -1;
     transition: 0.5s;
 }
@@ -101,6 +101,6 @@
     background: transparent;
 }
 .btn-box a:nth-child(1):hover::before {
-    color: #4F6B96;
+    color: var(--font-secundary-dark-mode);
     width: 0%;
 }

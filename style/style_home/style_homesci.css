@@ -22,10 +22,10 @@
     width: 40px;
     height: 40px;
     background: transparent;
-    border: 2px solid #4F6B96;
+    border: 2px solid var(--font-secundary-dark-mode);
     border-radius: 50%;
     font-size: 20px;
-    color: #4F6B96;
+    color: var(--font-secundary-dark-mode);
     text-decoration: none;
     z-index: 1;
     overflow: hidden;
@@ -43,7 +43,7 @@
     left: 0;
     width: 0;
     height: 100%;
-    background: #4F6B96;
+    background: var(--font-secundary-dark-mode);
     z-index: -1;
     transition: 0.5s;
 }

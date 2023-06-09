@@ -6,7 +6,7 @@
     width: 400px;
     height: 440px;
     background: transparent;
-    border: 2px solid #4F6B96;
+    border: 2px solid var(--font-secundary-dark-mode);
     border-radius: 20px;
     backdrop-filter: blur(3px);
     display: flex;
@@ -57,9 +57,9 @@
     right: 0;
     width: 45px;
     height: 40px;
-    background: #4F6B96;
+    background: var(--font-secundary-dark-mode);
     font-size: 2em;
-    color: #ededed;
+    color: var(--font-dark-mode);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -70,7 +70,7 @@
 
 .form-box h2 {
     font-size: 2em;
-    color: #ededed;
+    color: var(--font-dark-mode);
     text-align: center;
 }
 
@@ -78,7 +78,7 @@
     position: relative;
     width: 100%;
     height: 50px;
-    border-bottom: 2px solid #4F6B96;
+    border-bottom: 2px solid var(--font-secundary-dark-mode);
     margin: 30px 0;
 }
 
@@ -88,7 +88,7 @@
     left: 5px;
     transform:  translateY(-50%);
     font-size: 1em;
-    color: #ededed;
+    color: var(--font-dark-mode);
     font-weight: 500;
     pointer-events: none;
     transition: .5s;
@@ -105,7 +105,7 @@
     background: transparent;
     border: none;
     outline: none;
-    color: #ededed;
+    color: var(--font-dark-mode);
     font-size: 1em;
     font-weight: 600;
     padding: 0 35px 0 5px;
@@ -115,12 +115,12 @@
     position: absolute;
     right: 8px;
     font-size: 1.2em;
-    color: #ededed;
+    color: var(--font-dark-mode);
 }
 
 .remember-forgot {
     font-size: .9em;
-    color: #ededed;
+    color: var(--font-dark-mode);
     font-weight: 500;
     margin: -15px 0 15px;
     display: flex;
@@ -128,13 +128,13 @@
 }
 
 .remember-forgot label,input {
-    accent-color: #4F6B96;
+    accent-color: var(--font-secundary-dark-mode);
     margin-right: 3px;
     cursor: pointer;
 }
 
 .remember-forgot a {
-    color: #ededed;
+    color: var(--font-dark-mode);
     text-decoration: none;
 }
 
@@ -145,26 +145,26 @@
 .btn {
     width: 100%;
     height: 45px;
-    background: #4F6B96;
+    background: var(--font-secundary-dark-mode);
     border: none;
     outline: none;
     border-radius: 6px;
     cursor: pointer;
     font-size: 1em;
-    color: #ededed;
+    color: var(--font-dark-mode);
     font-weight: 500;
 }
 
 .login-register {
     font-size: .9em;
-    color: #ededed;
+    color: var(--font-dark-mode);
     text-align: center;
     font-weight: 500;
     margin: 25px 0 10px;
 }
 
 .login-register p a {
-    color: #ededed;
+    color: var(--font-dark-mode);
     text-decoration: none;
     font-weight: 600;
 }

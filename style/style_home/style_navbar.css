@@ -5,7 +5,7 @@
 
 .navbar a {
     font-size: 18px;
-    color: #ededed;
+    color: var(--font-dark-mode);
     text-decoration: none;
     font-weight: 500;
     margin-left: 35px;
@@ -15,7 +15,7 @@
     content: '';
     width: 0;
     height: 3px;
-    background-color: #4F6B96;
+    background-color: var(--font-secundary-dark-mode);
     margin-top: 3px;
     display: block;
 }
@@ -31,6 +31,6 @@
 
 .navbar a:hover,
 .navbar a.active {
-    color: #4F6B96;
+    color: var(--font-secundary-dark-mode);
     transition: 0.3s;
 }
