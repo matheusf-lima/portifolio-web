@@ -6,7 +6,8 @@ const IconClose = document.querySelector('.icon-close')
 const homeContent = document.querySelector('.home-content');
 const navbar = document.querySelector('.navbar').querySelectorAll('a');
 const redes = document.querySelector('.home-sci');
-const homeimg = document.querySelector('.homeanimation')
+const homeimg = document.querySelector('.homeanimation');
+const idade = document.querySelector('.idade');
 
 navbar.forEach(element => {
     element.addEventListener('click', function(){
@@ -39,3 +40,7 @@ IconClose.addEventListener('click', ()=> {
     redes.classList.remove('active');
     homeimg.classList.remove('active');
 });
+
+nacimento = 2002;
+
+idade.innerHTML = new Date().getFullYear() - 2002;

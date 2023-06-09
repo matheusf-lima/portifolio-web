@@ -8,7 +8,7 @@
     background: #4F6B96;
     border: 2px solid #4F6B96;
     border-radius: 8px;
-    font-size: 19px;
+    font-size: 20px;
     color: #020015;
     text-decoration: none;
     font-weight: 600;
@@ -83,7 +83,7 @@
     transition: 0.5s;
 }
 
-.btn-box a:nth-child(1):before {
+.btn-box a:nth-child(1)::before {
     content: '';
     position: absolute;
     top: 0;
