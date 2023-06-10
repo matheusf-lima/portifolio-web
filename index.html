@@ -14,19 +14,27 @@
     <link rel="stylesheet" href="style/style_home/style_loginform.css">
     <link rel="stylesheet" href="style/style_home/style_keyframes.css">
     <link rel="stylesheet" href="style/style_sobre/style-about.css">
+    <link rel="stylesheet" href="style/style_sobre/style-about-text.css">
+    <link rel="stylesheet" href="style/style_sobre/style-about-img.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
     <header class="header">
         <a href="#home" class="logo">Bem vindo</a>
         <nav class="navbar">
+            <div class="theeme-mode">
+                <i class='bx bxs-moon'></i>
+                <input type="checkbox" id="checkbox" class="checkbox">
+                <label for="checkbox" class="button"></label>
+                <i class='bx bxs-sun'></i>
+            </div>
             <a href="#home" class="active">Início</a>
             <a href="#about">Sobre</a>
             <a href="#servico">Habilidades</a>
             <a href="#portifolio">Portifolio</a>
             <a href="#contato">Contato</a>
             <button class="btnlogin-popup" href="#home">Login</button>
-            <input class="theeme-checkbox" type="checkbox"><label>Mode</label>
+            
         </nav>
     </header>
     <section id="home" class="home">
@@ -117,7 +125,7 @@
             <p>Sobre <span>Mim</span></p>
         </div>
         <div class="about-content">
-            <img src="img/about_img.jpg" alt="">
+            <img src="img/about_img.jpeg" alt="">
             <div class="about-text-box">
                 <p>Ola, meu nome é Matheus Fernandes, tenho <b><span class="idade"></span></b> Anos, e sou apaixonado por programação. Após 4 anos de estudos incansável em diversar técnologias e área de desenvolvimento, como <b>Python</b>, <b>Django</b>, <b>PHP</b>, <b>MySql</b>, <b>PostgreSQL</b>, <b>Jquery</b>... Sou capaz de entender e participar de todo o contexto da produção de um projeto, desde Software Desktop até Desenvolvimento Web, cargo também conhecido no mercado atualmente como Desenvolvedor Full Stack</p>
                 <a href="#">Ler mais</a>
@@ -125,6 +133,10 @@
             </div>
         </div>
     </section>
+
+    <div  class="divisor">
+        <span></span>
+     </div>
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
     <script src="script.js"></script>

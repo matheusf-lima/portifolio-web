@@ -10,12 +10,14 @@
 :root {
     --font-dark-mode: #ededed;
     --font-secundary-dark-mode: #4F6B96;
+    --font-inverted-dark-mode: #020015;
     --bg-dark-mode: url('../../img/bg.jpg');
 }
 
 .dark-mode {
     --font-dark-mode: #303030;
     --font-secundary-dark-mode: #87a5d1;
+    --font-inverted-dark-mode: #e4e4e4;
     --bg-dark-mode: url('../../img/light_bg.avif');
     transition: 0.5 ease-in ;
 }
@@ -54,7 +56,7 @@ body {
 
 .logo {
     position: relative;
-    font-size: 25px;
+    font-size: 30px;
     color: var(--font-dark-mode);
     text-decoration: none;
     font-weight: 600;
@@ -62,4 +64,17 @@ body {
     animation: fadeIn 1.5s forwards;
     opacity: 0;
     transform: cubic-bezier(0.785, 0.135, 0.15, 0.86);
+}
+
+.divisor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.divisor span {
+    width: 40%;
+    border: 2px solid var(--font-secundary-dark-mode);
+    border-radius: 2px;
+    margin: 20px 0px;
 }

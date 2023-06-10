@@ -8,7 +8,7 @@ const navbar = document.querySelector('.navbar').querySelectorAll('a');
 const redes = document.querySelector('.home-sci');
 const homeimg = document.querySelector('.homeanimation');
 const idade = document.querySelector('.idade');
-const lighMode = document.querySelector('.theeme-checkbox');
+const lighMode = document.querySelector('.checkbox');
 const html = document.querySelector('html');
 
 lighMode.addEventListener('change', function(){
