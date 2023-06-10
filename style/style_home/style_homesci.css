@@ -33,7 +33,7 @@
 }
 
 .home-sci a:hover {
-    color: #020015;
+    color: var(--font-inverted-dark-mode);
 }
 
 .home-sci a::before {

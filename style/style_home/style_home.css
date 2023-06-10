@@ -15,8 +15,8 @@
 }
 
 .dark-mode {
-    --font-dark-mode: #303030;
-    --font-secundary-dark-mode: #87a5d1;
+    --font-dark-mode: #272727;
+    --font-secundary-dark-mode: #839fca;
     --font-inverted-dark-mode: #e4e4e4;
     --bg-dark-mode: url('../../img/light_bg.avif');
     transition: 0.5 ease-in ;
@@ -40,7 +40,7 @@ body {
     top: 0;
     left: 0;
     width: 100%;
-    padding: 20px 10%;
+    padding: 10px 10%;
     display: flex;
     justify-content: space-between;
     align-items: center;

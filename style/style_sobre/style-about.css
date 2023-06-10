@@ -6,7 +6,7 @@
     width: 100%;
     gap: 60px;
     padding: 20px 10%;
-    height: 100vh;
+    min-height: 100vh;
     
 }
 
