@@ -63,7 +63,7 @@
 }
 
 .btn-box a:nth-child(2):hover {
-    color: #10151f;
+    color: var(--font-inverted-dark-mode);
 }
 
 .btn-box a:nth-child(2) {
@@ -90,7 +90,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    color: #10151f;
+    
 }
 
 .btn-box a:nth-child(2):hover::before {
