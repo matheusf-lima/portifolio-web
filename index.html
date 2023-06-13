@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="style/style_sobre/style-about-text.css">
     <link rel="stylesheet" href="style/style_sobre/style-about-img.css">
     <link rel="stylesheet" href="style/style_skills/style_skills.css">
+    <link rel="stylesheet" href="style/style_contato/style-contato.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
@@ -31,9 +32,9 @@
             </div>
             <a href="#home" class="active">Início</a>
             <a href="#about">Sobre</a>
-            <a href="#habilidades">Habilidades</a>
-            <a href="#portifolio">Portifolio</a>
-            <a href="#contato">Contato</a>
+            <a href="#skill">Habilidades</a>
+            <a href="#projects">Portifolio</a>
+            <a href="#contact">Contato</a>
             <button class="btnlogin-popup" href="#home">Login</button>
             
         </nav>
@@ -135,11 +136,11 @@
         </div>
     </section>
 
-    <div id="habilidades" class="divisor-skill">
+    <div class="divisor-skill">
         <span></span>
      </div>
 
-    <section class="habilidades group">
+    <section id="skill"  class="habilidades group">
         <div class="skill-heading">
             <p><span>Bagagem</span> Tech</p>
         </div>
@@ -210,6 +211,63 @@
     <div  class="divisor">
         <span></span>
      </div>
+
+     <section id="contact" class="contato group">
+        <div class="ctt-content">
+            <h2>Entre Em Contato <span>Comigo</span></h2>
+            <p>Para tirar alguma duvida, saber mais e solicitar algum serviço, envie uma mensagem ou ligue diretamente para negociar.</p>
+        </div>
+        <div class="ctt-container">
+            <div class="contatoinfo">
+                <div class="box">
+                    <div class="icon"><i class='bx bx-map' ></i></div>
+                    <div class="text">
+                        <h3>Endereço</h3>
+                        <p>Avenida Interlagos,
+                        5851, <br>
+                        Interlagos, <br>
+                        Bloco 6 Apto 31</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="icon"><i class='bx bx-envelope' ></i></div>
+                    <div class="text">
+                        <h3>E-mail</h3>
+                        <p>matheusmatheus939@gmail.com</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="icon"><i class='bx bx-phone'></i></div>
+                    <div class="text">
+                        <h3>Telefone / Whatsapp</h3>
+                        <p>55+ (11) 96963-9876</p>
+                    </div>
+                </div>
+            </div>
+            <div class="contactform">
+                <form action="https://api.staticforms.xyz/submit" method="post">
+                    <input type="hidden" name="accessKey" value="e512eb98-451c-4126-af6d-8d2a4e4b0fff">
+                    <h2>Envie uma menssagem <i class='bx bx-chat'></i></h2>
+                    <div class="inputbox">
+                        <input type="text" name="name" required>
+                        <span>Nome Completo</span>
+                    </div>
+                    <div class="inputbox">
+                        <input type="text" name="email" required>
+                        <span>Email</span>
+                    </div>
+                    <div class="inputbox">
+                        <textarea name="message" cols="" rows="1" required></textarea>
+                        <span>Digite sua Mensagem...</span>
+                    </div>
+                    <div class="inputbox">
+                        <input type="submit" value="Enviar" required>
+                    </div>
+                    <input type="hidden" name="redirectTo" value="https://matheusf-lima.github.io/portifolio-web/index.html">
+                </form>
+            </div>
+        </div>
+     </section>
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
     <script src="script.js"></script>

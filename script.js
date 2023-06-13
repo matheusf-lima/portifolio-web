@@ -11,6 +11,26 @@ const idade = document.querySelector('.idade');
 const lighMode = document.querySelector('.checkbox');
 const html = document.querySelector('html');
 
+let section = document.querySelectorAll('section');
+let navlinks = document.querySelectorAll('header nav a');
+
+window.onscroll = () => {
+    section.forEach(sec => {
+
+        let top = window.scrollY;
+        let offset = sec.offsetTop -150;
+        let height = sec.offsetHeight;
+        let id = sec.getAttribute('id');
+
+        if(top >= offset && top < offset + height){
+            navlinks.forEach(links => {
+                links.classList.remove('active');
+                document.querySelector('header nav a[href*=' + id + ']').classList.add('active')
+            })
+        }
+    })
+}
+
 lighMode.addEventListener('change', function(){
     html.classList.toggle('dark-mode');
 });
@@ -53,6 +73,8 @@ idade.innerHTML = new Date().getFullYear() - 2002;
 
 window.addEventListener('scroll', reveal);
 
+
+
 function reveal(){
     var reveals = document.querySelectorAll('.group');
 
@@ -60,7 +82,7 @@ function reveal(){
 
         var windowheight = window.innerHeight;
         var revealtop = reveals[i].getBoundingClientRect().top;
-        var revelpoint = 150;
+        var revelpoint = 100;
 
         if(revealtop < windowheight - revelpoint){
             reveals[i].classList.add('active');
