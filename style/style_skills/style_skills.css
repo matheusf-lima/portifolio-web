@@ -68,7 +68,7 @@
     border-radius: 20px;
     box-shadow: 0 35px 80px rgba(0,0,0,0.1);
     transition: 0.5s;
-    backdrop-filter: blur(2.px);
+    backdrop-filter: blur(3px);
 }
 
 .container .card:hover {
