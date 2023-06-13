@@ -50,3 +50,23 @@ IconClose.addEventListener('click', ()=> {
 nacimento = 2002;
 
 idade.innerHTML = new Date().getFullYear() - 2002;
+
+window.addEventListener('scroll', reveal);
+
+function reveal(){
+    var reveals = document.querySelectorAll('.group');
+
+    for(var i = 0;i < reveals.length; i++){
+
+        var windowheight = window.innerHeight;
+        var revealtop = reveals[i].getBoundingClientRect().top;
+        var revelpoint = 150;
+
+        if(revealtop < windowheight - revelpoint){
+            reveals[i].classList.add('active');
+        }
+        else{
+            reveals[i].classList.remove('active');
+        }
+    }
+}
